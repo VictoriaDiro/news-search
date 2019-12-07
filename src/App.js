@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   checkNews = async (category='general') => {
-    const url = `https://newsapi.org/v2/top-headlines?country=mx&category=${category}&apiKey=114920d78eb545ae9370cb39bb5d4f7d`;
+    const url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=114920d78eb545ae9370cb39bb5d4f7d`;
 
     const answer = await fetch(url);
     const news = await answer.json();
@@ -21,7 +21,6 @@ class App extends Component {
     this.setState({
       news: news.articles
     })
-    console.log(news.articles);
   }
 
 
