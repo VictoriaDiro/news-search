@@ -9,5 +9,6 @@ En este proyecto se han utilizando las siguientes tecnologías:
 - Redux
 - Sass
 
+> API gracias a [New API](https://newsapi.org/)
 ---
 ⌨️ con ❤️ por [VictoriaDiro](https://github.com/VictoriaDiro) 😊
